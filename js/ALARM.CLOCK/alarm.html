@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+<link rel="stylesheet" href="alarm.css">
+
+</head>
+<body>
+   
+   
+
+
+  <!-- The main container -->
+  <div id="wrapper">
+<div id="clock">
+    <span >00:00:00</span> <span> &nbsp; AM </span>
+</div>
+
+<div id="clock-date">Sun - Jan 22, 2023
+    
+</div>
+<!-- Form to take time input -->
+<form class="setAlarm">
+    <!-- Div to set hours, minutes & seconds -->
+    <div class="set-alarm-field">
+        <input type="number" name="hr" placeholder="HH" max="23" min="00">
+        <input type="number" name="min" placeholder="MM" max="59" min="00">
+        <input type="number" name="sec" placeholder="SS" max="59" min="00">
+    </div>
+    <!-- Div that contains buttons -->
+    <div class="buttons">
+        <button type="submit" class="set-alarm">Set Alarm</button>
+        <button type="reset" onclick="stopAlarm()" class="clear-alarm">Stop Alarm</button>
+    </div>
+</form>
+
+
+
+
+
+<hr style="margin-top: 20px">
+
+        <h3 style="margin: 20px 0;">Upcoming Alarms</h3>
+
+        <!-- Div that contains the list of all set alarms -->
+        <div id="upcoming-alarms">
+            <ul id="upcoming-alarms-list">
+                <!-- The list item is added using javascript when set alarm button is pressed -->
+            </ul>
+        </div>
+</div>>
+
+<script type="text/javascript" src="alarm.js"></script>
+
+</body>
+</html>

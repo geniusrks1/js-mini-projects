@@ -1,0 +1,19 @@
+#ball{
+	background-color: #00ffc3b3;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1px;
+    top:1px;
+   
+}
+
+@media only screen and (max-width: 450px)
+{
+	#ball{
+		height: 50px;
+		width: 50px;
+		
+	}
+}

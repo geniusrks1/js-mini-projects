@@ -1,0 +1,12 @@
+.progressBarContainer {
+    width: 400px;
+    height: 30px;
+    margin: 40px;
+    background-color: green;
+}
+
+.progressBar {
+    background-color: rgb(206, 30, 135);
+    height: 100%;
+    width: 0%;
+}
